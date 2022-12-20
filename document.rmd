@@ -1,0 +1,28 @@
+---
+title: |
+    ![](img/uliegefsa.png){width=50%}
+
+    **rapport test**
+#subtitle: | 
+#        subtitle
+date: "`r Sys.Date()`"
+#french version
+#date: '`r Sys.setlocale("LC_TIME", "French"); gsub(" 0", " ",format(Sys.Date(), "Le %d %B %Y"))`'
+author:
+- Loic Delbarre (S215072)
+output: 
+    pdf_document:
+        number_section: true
+#        extra_dependencies: ["graphicx"]
+#        header-includes:
+#        fig_caption: true
+---
+<!--table of content and Latex related stuff-->
+\newpage 
+\tableofcontents 
+\newpage
+
+# Introduction
+
+This is a template using Rmarkdown and the power of the makefile to generate beautiful pdf_document
+![](img/test.eps){width=40%}
